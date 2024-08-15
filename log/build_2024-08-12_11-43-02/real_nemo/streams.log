@@ -1,0 +1,104 @@
+[0.007s] Invoking command in '/home/yk/ros2_ws/src/real_nemo/build/real_nemo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/yk/ros2_ws/src/real_nemo/build/real_nemo -- -j16 -l16
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target turtlebot_controller[0m
+[0.044s] [ 50%] Built target cpp_node
+[0.051s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.o[0m
+[1.718s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:14:48:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[1.719s]    14 | class TurtlebotController : public rclcpp::node[01;31m[K{[m[K
+[1.719s]       |                                                [01;31m[K^[m[K
+[1.746s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:[m[K In constructor ‘[01m[KTurtlebotController::TurtlebotController()[m[K’:
+[1.747s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:16:29:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTurtlebotController[m[K’ does not have any field named ‘[01m[KNode[m[K’
+[1.747s]    16 |     TurtlebotController() : [01;31m[KNode[m[K("turtlebot_controller"){
+[1.747s]       |                             [01;31m[K^~~~[m[K
+[1.747s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:18:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlebotController[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+[1.747s]    18 |     publisher_ = this->[01;31m[Kcreate_publisher[m[K<geometry_msgs::msg::Twist>("turtle1/cmd_vel",10);
+[1.747s]       |                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.747s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:18:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.747s]    18 |     publisher_ = this->create_publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K("turtle1/cmd_vel",10);
+[1.747s]       |                                                                  [01;31m[K^[m[K
+[1.747s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:18:68:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[1.747s]    18 |     publisher_ = this->create_publisher<geometry_msgs::msg::Twist>([01;35m[K"turtle1/cmd_vel"[m[K,10);
+[1.747s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.748s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:20:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlebotController[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’
+[1.748s]    20 |     subscription_ = this->[01;31m[Kcreate_subscription[m[K<turtlesim::msg::Pose>(
+[1.748s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.748s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:20:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.748s]    20 |     subscription_ = this->create_subscription<turtlesim::msg::Pose[01;31m[K>[m[K(
+[1.748s]       |                                                                   [01;31m[K^[m[K
+[1.748s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:21:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[1.748s]    21 |         [01;35m[K"turtle1/pose"[m[K, 10, std::bind(&TurtlebotController::topic_callback, this, _1));
+[1.748s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.750s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:21:85:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[1.750s]    21 |         "turtle1/pose", 10, std::bind(&TurtlebotController::topic_callback, this, _1[01;35m[K)[m[K);
+[1.750s]       |                                                                                     [01;35m[K^[m[K
+[1.750s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:23:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlebotController[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+[1.750s]    23 |     timer_ = this->[01;31m[Kcreate_wall_timer[m[K(
+[1.750s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.756s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtlebotController::timer_callback()[m[K’:
+[1.756s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:33:14:[m[K [01;31m[Kerror: [m[K‘[01m[KA[m[K’ was not declared in this scope
+[1.757s]    33 |         if (([01;31m[KA[m[K%2) == 0)
+[1.757s]       |              [01;31m[K^[m[K
+[1.757s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[1.757s]                  from [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:1[m[K:
+[1.758s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlebotController[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[1.758s]    39 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);
+[1.758s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[1.758s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlebotController[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[1.758s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.758s]    39 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);
+[1.758s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.758s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.758s]    39 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);
+[1.758s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.758s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.758s]    39 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);
+[1.758s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.758s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[1.759s]                  from [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:1[m[K:
+[1.760s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlebotController[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[1.760s]    39 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);
+[1.760s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[1.760s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass TurtlebotController[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[1.760s]    39 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);
+[1.760s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[1.760s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.760s] [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:60:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<TurtlebotController>)[m[K’
+[1.760s]    60 |     [01;31m[Krclcpp::spin(std::make_shared<TurtlebotController>())[m[K;
+[1.760s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.760s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[1.760s]                  from [01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:1[m[K:
+[1.760s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:46:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[1.761s]    46 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.761s]       | [01;36m[K^~~~[m[K
+[1.761s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:46:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KTurtlebotController[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[1.761s]    46 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[1.761s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[1.761s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:50:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[1.761s]    50 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.761s]       | [01;36m[K^~~~[m[K
+[1.761s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:50:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KTurtlebotController[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[1.761s]    50 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[1.761s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.459s] gmake[2]: *** [CMakeFiles/turtlebot_controller.dir/build.make:76: CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.o] Error 1
+[2.459s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtlebot_controller.dir/all] Error 2
+[2.459s] gmake: *** [Makefile:146: all] Error 2
+[2.462s] Invoked command in '/home/yk/ros2_ws/src/real_nemo/build/real_nemo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/yk/ros2_ws/src/real_nemo/build/real_nemo -- -j16 -l16

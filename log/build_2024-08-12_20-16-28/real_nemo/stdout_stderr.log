@@ -1,0 +1,38 @@
+[ 50%] Built target cpp_node
+[ 75%] [32mBuilding CXX object CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.o[0m
+[01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtlebotController::timer_callback()[m[K’:
+[01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:41:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_th[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   41 |         int [01;35m[Kgoal_th[m[K;
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:43:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_error_th[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   43 |         double [01;35m[Kprev_error_th[m[K = 0;
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:59:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kreal_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   59 |         double [01;35m[Kreal_d[m[K = sqrt(d_x * d_x + d_y * d_y);
+      |                [01;35m[K^~~~~~[m[K
+[01m[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:64:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kerror_d[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   64 |         double [01;35m[Kerror_d[m[K = goal_d - error_d;
+      |                [01;35m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable turtlebot_controller[0m
+[100%] Built target turtlebot_controller
+-- Install configuration: ""
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/lib/real_nemo/cpp_node
+-- Installing: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/lib/real_nemo/turtlebot_controller
+-- Set runtime path of "/home/yk/ros2_ws/src/real_nemo/install/real_nemo/lib/real_nemo/turtlebot_controller" to ""
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/launch
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/launch/turtlebot_control_launch.py
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/ament_index/resource_index/package_run_dependencies/real_nemo
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/ament_index/resource_index/parent_prefix_path/real_nemo
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/environment/path.sh
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/environment/path.dsv
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/local_setup.bash
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/local_setup.sh
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/local_setup.zsh
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/local_setup.dsv
+-- Installing: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/package.dsv
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/ament_index/resource_index/packages/real_nemo
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/cmake/real_nemoConfig.cmake
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/cmake/real_nemoConfig-version.cmake
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/package.xml

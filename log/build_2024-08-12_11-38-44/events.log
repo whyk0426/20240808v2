@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000333] (real_nemo) JobQueued: {'identifier': 'real_nemo', 'dependencies': OrderedDict()}
+[0.000354] (real_nemo) JobStarted: {'identifier': 'real_nemo'}
+[0.005069] (real_nemo) JobProgress: {'identifier': 'real_nemo', 'progress': 'cmake'}
+[0.005260] (real_nemo) Command: {'cmd': ['/usr/bin/cmake', '/home/yk/ros2_ws/src/real_nemo', '-DCMAKE_INSTALL_PREFIX=/home/yk/ros2_ws/src/real_nemo/install/real_nemo'], 'cwd': '/home/yk/ros2_ws/src/real_nemo/build/real_nemo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yk'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yk/ros2_ws/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yk'), ('OLDPWD', '/home/yk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1575'), ('SYSTEMD_EXEC_PID', '1937'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '37394'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yk/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'yk'), ('JOURNAL_STREAM', '8:41204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yk-NUC13ANKi5:@/tmp/.ICE-unix/1733,unix/yk-NUC13ANKi5:/tmp/.ICE-unix/1733'), ('INVOCATION_ID', '299282b5dc2f4779bd42659e0bad4da1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RMX5R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/yk/ros2_ws/install/turtlesim:/home/yk/ros2_ws/install/ros2_cpp_tutorial:/home/yk/ros2_ws/install/my_package:/home/yk/ros2_ws/install/cpp_pubsub:/home/yk/ros2_ws/install/circling_turtle:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:dc8a56ff-0168-4da4-9eb9-9ebe84dcb150'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yk/ros2_ws/src/real_nemo/build/real_nemo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yk/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yk/ros2_ws/install/turtlesim:/home/yk/ros2_ws/install/ros2_cpp_tutorial:/home/yk/ros2_ws/install/my_package:/home/yk/ros2_ws/install/cpp_pubsub:/home/yk/ros2_ws/install/circling_turtle:/opt/ros/iron')]), 'shell': False}
+[0.046389] (real_nemo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.096241] (real_nemo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099780] (-) TimerEvent: {}
+[0.101213] (real_nemo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.170364] (real_nemo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.174206] (real_nemo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.174292] (real_nemo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.174600] (real_nemo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.176630] (real_nemo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199979] (-) TimerEvent: {}
+[0.240997] (real_nemo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.246071] (real_nemo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.246256] (real_nemo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.246473] (real_nemo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.248004] (real_nemo) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.300206] (-) TimerEvent: {}
+[0.373712] (real_nemo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.400415] (-) TimerEvent: {}
+[0.432220] (real_nemo) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.460372] (real_nemo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.468697] (real_nemo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.479854] (real_nemo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.492731] (real_nemo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500570] (-) TimerEvent: {}
+[0.600860] (-) TimerEvent: {}
+[0.604261] (real_nemo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.605936] (real_nemo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.674501] (real_nemo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.695368] (real_nemo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[0.701065] (-) TimerEvent: {}
+[0.723368] (real_nemo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801289] (-) TimerEvent: {}
+[0.838994] (real_nemo) StdoutLine: {'line': b'-- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.871974] (real_nemo) StdoutLine: {'line': b'-- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)\n'}
+[0.901503] (-) TimerEvent: {}
+[1.001890] (-) TimerEvent: {}
+[1.015901] (real_nemo) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[1.043423] (real_nemo) StdoutLine: {'line': b'-- Found turtlesim: 1.6.1 (/home/yk/ros2_ws/install/turtlesim/share/turtlesim/cmake)\n'}
+[1.099097] (real_nemo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.102099] (-) TimerEvent: {}
+[1.151856] (real_nemo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.152067] (real_nemo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yk/ros2_ws/src/real_nemo/include>\n'}
+[1.152164] (real_nemo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.152463] (real_nemo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.152580] (real_nemo) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.153297] (real_nemo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.153857] (real_nemo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.156029] (real_nemo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.156194] (real_nemo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.156560] (real_nemo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.157238] (real_nemo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.164587] (real_nemo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.165868] (real_nemo) StdoutLine: {'line': b'-- Build files have been written to: /home/yk/ros2_ws/src/real_nemo/build/real_nemo\n'}
+[1.173022] (real_nemo) CommandEnded: {'returncode': 0}
+[1.173709] (real_nemo) JobProgress: {'identifier': 'real_nemo', 'progress': 'build'}
+[1.173743] (real_nemo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yk/ros2_ws/src/real_nemo/build/real_nemo', '--', '-j16', '-l16'], 'cwd': '/home/yk/ros2_ws/src/real_nemo/build/real_nemo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yk'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yk/ros2_ws/install/turtlesim/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/yk'), ('OLDPWD', '/home/yk'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1575'), ('SYSTEMD_EXEC_PID', '1937'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '37394'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yk/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'yk'), ('JOURNAL_STREAM', '8:41204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yk-NUC13ANKi5:@/tmp/.ICE-unix/1733,unix/yk-NUC13ANKi5:/tmp/.ICE-unix/1733'), ('INVOCATION_ID', '299282b5dc2f4779bd42659e0bad4da1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RMX5R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/yk/ros2_ws/install/turtlesim:/home/yk/ros2_ws/install/ros2_cpp_tutorial:/home/yk/ros2_ws/install/my_package:/home/yk/ros2_ws/install/cpp_pubsub:/home/yk/ros2_ws/install/circling_turtle:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:dc8a56ff-0168-4da4-9eb9-9ebe84dcb150'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yk/ros2_ws/src/real_nemo/build/real_nemo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yk/ros2_ws/install/turtlesim/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yk/ros2_ws/install/turtlesim:/home/yk/ros2_ws/install/ros2_cpp_tutorial:/home/yk/ros2_ws/install/my_package:/home/yk/ros2_ws/install/cpp_pubsub:/home/yk/ros2_ws/install/circling_turtle:/opt/ros/iron')]), 'shell': False}
+[1.202343] (-) TimerEvent: {}
+[1.214860] (real_nemo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[1.215080] (real_nemo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.o\x1b[0m\n'}
+[1.234333] (real_nemo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[1.265918] (real_nemo) StdoutLine: {'line': b'[ 75%] Built target cpp_node\n'}
+[1.302571] (-) TimerEvent: {}
+[1.402905] (-) TimerEvent: {}
+[1.503325] (-) TimerEvent: {}
+[1.603744] (-) TimerEvent: {}
+[1.704173] (-) TimerEvent: {}
+[1.804588] (-) TimerEvent: {}
+[1.905017] (-) TimerEvent: {}
+[2.005453] (-) TimerEvent: {}
+[2.105910] (-) TimerEvent: {}
+[2.206338] (-) TimerEvent: {}
+[2.306771] (-) TimerEvent: {}
+[2.407225] (-) TimerEvent: {}
+[2.507593] (-) TimerEvent: {}
+[2.608020] (-) TimerEvent: {}
+[2.708444] (-) TimerEvent: {}
+[2.808742] (-) TimerEvent: {}
+[2.841972] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:14:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.842229] (real_nemo) StderrLine: {'line': b'   14 | class TurtlebotController : public rclcpp::node\x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[2.842335] (real_nemo) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.869379] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtlebotController::TurtlebotController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.869575] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:16:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KTurtlebotController\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.869660] (real_nemo) StderrLine: {'line': b'   16 |     TurtlebotController() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("turtlebot_controller"){\n'}
+[2.869976] (real_nemo) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.870083] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:18:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TurtlebotController\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_publisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.870161] (real_nemo) StderrLine: {'line': b'   18 |     publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher\x1b[m\x1b[K<geometry_msgs::msg::Twist>("turtle1/cmd_vel",10);\n'}
+[2.870234] (real_nemo) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.870304] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:18:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.870390] (real_nemo) StderrLine: {'line': b'   18 |     publisher_ = this->create_publisher<geometry_msgs::msg::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K("turtle1/cmd_vel",10);\n'}
+[2.870460] (real_nemo) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.870530] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:18:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.870602] (real_nemo) StderrLine: {'line': b'   18 |     publisher_ = this->create_publisher<geometry_msgs::msg::Twist>(\x1b[01;35m\x1b[K"turtle1/cmd_vel"\x1b[m\x1b[K,10);\n'}
+[2.870671] (real_nemo) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.870739] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:20:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TurtlebotController\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscription\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.870809] (real_nemo) StderrLine: {'line': b'   20 |     subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription\x1b[m\x1b[K<turtlesim::msg::Pose>(\n'}
+[2.870883] (real_nemo) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.870951] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:20:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.871020] (real_nemo) StderrLine: {'line': b'   20 |     subscription_ = this->create_subscription<turtlesim::msg::Pose\x1b[01;31m\x1b[K>\x1b[m\x1b[K(\n'}
+[2.871088] (real_nemo) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.871156] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:21:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.871225] (real_nemo) StderrLine: {'line': b'   21 |         \x1b[01;35m\x1b[K"turtle1/pose"\x1b[m\x1b[K, 10, std::bind(&TurtlebotController::topic_callback, this, _1));\n'}
+[2.871294] (real_nemo) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.872972] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:21:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.873152] (real_nemo) StderrLine: {'line': b'   21 |         "turtle1/pose", 10, std::bind(&TurtlebotController::topic_callback, this, _1\x1b[01;35m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.873232] (real_nemo) StderrLine: {'line': b'      |                                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.873305] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:23:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TurtlebotController\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kcreate_wall_timer\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.873389] (real_nemo) StderrLine: {'line': b'   23 |     timer_ = this->\x1b[01;31m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[2.873459] (real_nemo) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.878895] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtlebotController::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.879095] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:33:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KA\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.879396] (real_nemo) StderrLine: {'line': b'   33 |         if ((\x1b[01;31m\x1b[KA\x1b[m\x1b[K%2) == 0)\n'}
+[2.879504] (real_nemo) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.879581] (real_nemo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.879653] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.879723] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.879793] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.879863] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.879944] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.880014] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.880082] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.880151] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.880224] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.880292] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:1\x1b[m\x1b[K:\n'}
+[2.880361] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TurtlebotController\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.880620] (real_nemo) StderrLine: {'line': b'   39 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);\n'}
+[2.880683] (real_nemo) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.880716] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TurtlebotController\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.880747] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.880775] (real_nemo) StderrLine: {'line': b'   39 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);\n'}
+[2.880803] (real_nemo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.880831] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.880858] (real_nemo) StderrLine: {'line': b'   39 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);\n'}
+[2.880884] (real_nemo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.880910] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.880936] (real_nemo) StderrLine: {'line': b'   39 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);\n'}
+[2.880963] (real_nemo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.880990] (real_nemo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.881016] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[2.881043] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.881080] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.881107] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.881135] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.881161] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.881187] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.881213] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.881239] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.881264] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.881291] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:1\x1b[m\x1b[K:\n'}
+[2.881316] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TurtlebotController\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.881343] (real_nemo) StderrLine: {'line': b'   39 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);\n'}
+[2.881369] (real_nemo) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.881394] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:39:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TurtlebotController\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.881421] (real_nemo) StderrLine: {'line': b'   39 |         RCLCPP_INFO(this->\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Turtlebot state: (x: %f, y: %f, theta: %f)", turtlebot_state.x, turtlebot_state.y, turtlebot_state.theta);\n'}
+[2.881446] (real_nemo) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.881843] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.881982] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:60:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<TurtlebotController>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.882091] (real_nemo) StderrLine: {'line': b'   60 |     \x1b[01;31m\x1b[Krclcpp::spin(std::make_shared<TurtlebotController>())\x1b[m\x1b[K;\n'}
+[2.882179] (real_nemo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.882263] (real_nemo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.882346] (real_nemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yk/ros2_ws/src/real_nemo/src/turtlebot_controller.cpp:1\x1b[m\x1b[K:\n'}
+[2.882438] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:46:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.882526] (real_nemo) StderrLine: {'line': b'   46 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[2.882608] (real_nemo) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.882688] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:46:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KTurtlebotController\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::node_interfaces::NodeBaseInterface\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.882773] (real_nemo) StderrLine: {'line': b'   46 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[2.882854] (real_nemo) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.882934] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:50:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.883014] (real_nemo) StderrLine: {'line': b'   50 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[2.883091] (real_nemo) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.883167] (real_nemo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:50:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KTurtlebotController\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::Node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.883246] (real_nemo) StderrLine: {'line': b'   50 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[2.883324] (real_nemo) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.908979] (-) TimerEvent: {}
+[3.009376] (-) TimerEvent: {}
+[3.109807] (-) TimerEvent: {}
+[3.210220] (-) TimerEvent: {}
+[3.310655] (-) TimerEvent: {}
+[3.411039] (-) TimerEvent: {}
+[3.511493] (-) TimerEvent: {}
+[3.549176] (real_nemo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlebot_controller.dir/build.make:76: CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.o] Error 1\n'}
+[3.549450] (real_nemo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtlebot_controller.dir/all] Error 2\n'}
+[3.549701] (real_nemo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.551208] (real_nemo) CommandEnded: {'returncode': 2}
+[3.573558] (real_nemo) JobEnded: {'identifier': 'real_nemo', 'rc': 2}
+[3.584107] (-) EventReactorShutdown: {}

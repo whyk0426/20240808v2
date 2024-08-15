@@ -1,0 +1,11 @@
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/uninstall.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/real_nemo_uninstall.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/cpp_node.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/turtlebot_controller.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/test.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/edit_cache.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/rebuild_cache.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/list_install_components.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/install.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/install/local.dir
+/home/yk/ros2_ws/src/real_nemo/build/real_nemo/CMakeFiles/install/strip.dir

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlebot_controller[0m
+[ 50%] Built target cpp_node
+[ 75%] [32mBuilding CXX object CMakeFiles/turtlebot_controller.dir/src/turtlebot_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtlebot_controller[0m
+[100%] Built target turtlebot_controller
+-- Install configuration: ""
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/lib/real_nemo/cpp_node
+-- Installing: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/lib/real_nemo/turtlebot_controller
+-- Set runtime path of "/home/yk/ros2_ws/src/real_nemo/install/real_nemo/lib/real_nemo/turtlebot_controller" to ""
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/launch
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/launch/turtlebot_control_launch.py
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/ament_index/resource_index/package_run_dependencies/real_nemo
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/ament_index/resource_index/parent_prefix_path/real_nemo
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/environment/path.sh
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/environment/path.dsv
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/local_setup.bash
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/local_setup.sh
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/local_setup.zsh
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/local_setup.dsv
+-- Installing: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/package.dsv
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/ament_index/resource_index/packages/real_nemo
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/cmake/real_nemoConfig.cmake
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/cmake/real_nemoConfig-version.cmake
+-- Up-to-date: /home/yk/ros2_ws/src/real_nemo/install/real_nemo/share/real_nemo/package.xml

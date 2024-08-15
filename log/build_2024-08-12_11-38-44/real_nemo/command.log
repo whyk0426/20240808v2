@@ -1,0 +1,4 @@
+Invoking command in '/home/yk/ros2_ws/src/real_nemo/build/real_nemo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/yk/ros2_ws/src/real_nemo -DCMAKE_INSTALL_PREFIX=/home/yk/ros2_ws/src/real_nemo/install/real_nemo
+Invoked command in '/home/yk/ros2_ws/src/real_nemo/build/real_nemo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/yk/ros2_ws/src/real_nemo -DCMAKE_INSTALL_PREFIX=/home/yk/ros2_ws/src/real_nemo/install/real_nemo
+Invoking command in '/home/yk/ros2_ws/src/real_nemo/build/real_nemo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/yk/ros2_ws/src/real_nemo/build/real_nemo -- -j16 -l16
+Invoked command in '/home/yk/ros2_ws/src/real_nemo/build/real_nemo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/yk/ros2_ws/src/real_nemo/build/real_nemo -- -j16 -l16
